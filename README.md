@@ -7,9 +7,13 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
+[English](https://github.com/skills/github-pages) | 中文
+
+> 本课程翻译自 Github Skills，全部课程请点击 [这里查看](https://www.github-zh.com/getting-started)
+
 # GitHub Pages
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+_使用 GitHub Pages 将你的仓库变成一个网站或博客。_
 
 </header>
 
@@ -21,23 +25,24 @@ _Create a site or blog from your GitHub repositories with GitHub Pages._
 
 ## Welcome
 
-With GitHub Pages, you can host project blogs, documentation, resumes, portfolios, or any other static content you'd like. Your GitHub repository can easily become its own website. In this course, we'll show you how to set up your own site or blog using GitHub Pages.
+使用 GitHub Pages，您可以托管个人博客、项目文档、您的简历、作品集或任何静态网站内容。
+只需一个 GitHub 仓库，就能让它变成属于你的网站。在本课程中，我们将一步步教你如何使用 GitHub Pages 创建属于自己的网站或博客。
 
-- **Who is this for**: Beginners, students, project maintainers, small businesses.
-- **What you'll learn**: How to build a GitHub Pages site.
-- **What you'll build**: We'll build a simple GitHub Pages site with a blog. We'll use [Jekyll](https://jekyllrb.com), a static site generator.
-- **Prerequisites**: If you need to learn about branches, commits, and pull requests, take [Introduction to GitHub](https://github.com/skills/introduction-to-github) first.
-- **How long**: This course takes less than one hour to complete.
+- **目标人群**: 新手，学生，项目维护者，小微企业
+- **学习内容**: 学习如何搭建一个 GitHub Pages 网站。
+- **您将完成**：我们将用 [Jekyll](https://jekyllrb.com)（一个静态网站生成器）搭建一个博客网站。
+- **先决条件**：如果你还不熟悉分支、提交或拉取请求，建议先学习 [GitHub 入门课程](https://github.com/github-china/introduction-to-github)。
+- **学习时长**：整个课程用时不到一小时。
 
-In this course, you will:
+在本课程中，你将完成以下任务：
 
-1. Enable GitHub Pages
-2. Configure your site
-3. Customize your home page
-4. Create a blog post
-5. Merge your pull request
+1. 启用 GitHub Pages
+2. 配置你的网站
+3. 自定义网站首页
+4. 创建一篇博客文章
+5. 合并您的拉取请求
 
-### How to start this course
+### 如何开始课程
 
 <!-- For start course, run in JavaScript:
 'https://github.com/new?' + new URLSearchParams({
@@ -50,14 +55,14 @@ In this course, you will:
 }).toString()
 -->
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=github-pages&owner=%40me&name=skills-github-pages&description=My+clone+repository&visibility=public)
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=github-china&template_name=github-pages&owner=%40me&name=skills-github-pages&description=My+clone+repository&visibility=public)
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+1. 右键点击上方 **Start course** 按钮，选择在新标签页中打开链接。
+2. 在新页面中根据系统提示新建一个仓库。
+   - 仓库名称、描述这些字段系统已经帮我们自动填充好了，您可以按需修改。
+   - 建议使用选择公开仓库，因为私有仓库有[GitHub Actions 分钟数限制](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions)。
+   - 最后点击 Create repository 按钮
+3. 仓库创建完毕后，等待大约 20 秒（等待Action执行），然后刷新页面。注意是刷新您仓库的页面，不是本课程的页面。如果页面没有变化，请继续等待。然后按照 README 中的步骤一步步进行。
 
 <footer>
 

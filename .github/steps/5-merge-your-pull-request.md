@@ -4,14 +4,17 @@
   Define terms and link to docs.github.com.
 -->
 
-## Step 5: Merge your pull request
+## Step 5: 合并你的 Pull Request
 
-_Nice work, friend :heart:! People will be reading your blog in no time!_
+_干的漂亮 :heart:! 大家很快就能阅读您的博客!_
 
-You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glossary#merge) your pull request!
+现在你可以[合并（merge）](https://docs.github.com/en/get-started/quickstart/github-glossary#merge)你的 Pull Request 了！
 
-### :keyboard: Activity: Merge your changes
+### :keyboard: 实操环节：合并你的修改
 
-1. Merge your changes from `my-pages` into `main`. If you created the pull request in step 2, just open that PR and click on **Merge pull request**. If you did not create the pull request earlier, you can do it now by following the instructions in [step 2](/.github/steps/2-configure-your-site.md).
-1. (optional) Delete the branch `my-pages`.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. 将 `my-pages` 分支中的修改合并到 `main` 分支。
+
+    * 如果你在第二步中已经创建过 Pull Request，只需打开该 PR，然后点击 **Merge pull request（合并请求）** 按钮。
+    * 如果之前还没有创建 Pull Request，可以现在按照 [第二步](/.github/steps/2-configure-your-site.md) 中的说明创建一个。
+2. （可选）合并后，可以删除 `my-pages` 分支。
+3. 等待大约 20 秒，然后刷新本页面。[GitHub Actions](https://docs.github.com/en/actions) 会自动识别你已完成此步骤，并跳转到下一步。
